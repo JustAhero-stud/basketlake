@@ -80,6 +80,7 @@ body{
     justify-content: flex-start;
 }
 .nav-button{
+    font: 18pt "Laker", sans-serif ;
     height: 10px;
 }
 #nav-bar a {
