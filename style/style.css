@@ -70,7 +70,6 @@ body{
     margin-top: 20px;
     width: 100px;
     height: 40px;
-    font: 18pt "Laker", sans-serif ;
     color: #000540;
     background-color: #899192 ;
 }
@@ -86,7 +85,6 @@ body{
     text-decoration: none;
 }
 #nav-bar a:hover {
-    font-size: 18pt;
     text-shadow: #a40a35 0 0 3px;
 }
 #news{
