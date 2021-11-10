@@ -1,6 +1,6 @@
 @font-face {
     font-family: Laker; /* Имя шрифта */
-    src: url(fonts/NBALAKER.ttf); /* Путь к файлу со шрифтом */
+    src: url('fonts/NBALAKER.ttf'); /* Путь к файлу со шрифтом */
 }
 body{
     background: url("pic/bground.jpg") repeat-x fixed 90%  ;
