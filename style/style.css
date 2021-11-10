@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Laker; /* Имя шрифта */
+    src: local('Laker');
+    src: url('../fonts/NBALAKER.ttf'); /* Путь к файлу со шрифтом */
+}
+body{
+    background: url("../pic/bground.jpg") repeat-x fixed 90%  ;
+    background-size: cover;
+    font: 18pt "Laker", sans-serif ;
+    overflow-y:scroll;
+}
+#nav-bar {
+    color: #8613a4;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    height: 350px;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 20px;
+    position: sticky;
+    color: #8613a4;
+}
+#menu a {
+    text-decoration: none;
+}
+.unselectable{
+    margin-top: 30px;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 40pt;
+    height: 35px;
+}
+#add{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px 5% 2% 5%;
+    backdrop-filter: blur(35px);
+    color: #000540;
+
+}
+#add textarea {
+    font: 18pt "Laker", sans-serif ;
+    background-color: #899192 ;
+    resize: none;
+    width: 100%;
+    height: 80px;
+
+}
+#add p{
+    width: 200px;
+
+}
+.string{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.string a {
+    text-decoration: none;
+    font: 20pt "Laker", sans-serif ;
+}
+.send{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font: 18pt "Laker", sans-serif ;
+    color: #000540;
+    background-color: #899192 ;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.nav-button{
+    height: 10px;
+}
+#nav-bar a {
+    text-decoration: none;
+}
+#nav-bar a:hover {
+    font-size: 18pt;
+    text-shadow: #a40a35 0 0 3px;
+}
+#news{
+    flex-direction: column;
+}
+#news, #champ, #add{
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    margin: 100px 5% 2% 5%;
+    backdrop-filter: blur(25px);
+}
+.one-new{
+    padding: 20px 0 20px 5px;
+    display: flex;
+    flex-direction: row;
+}
+.border{
+    border: 1px solid black;
+}
+.heading{
+    margin-left: 5px;
+    font: 21pt "Laker", sans-serif ;
+    margin-top: 20px;
+
+}
+.heading a{
+    text-decoration: none;
+    color: #000540;
+}
+.heading a:hover{
+    font: 21pt "Laker", sans-serif ;
+    text-shadow: #a40a35 0 0 2px;
+}
+.image-news{
+    max-height: 300px;
+    max-width: 300px;
+}
+.announce{
+    margin-left: 5px;
+    color: #ffffff;
+    font: 18pt "Laker", sans-serif ;
+}
+td{
+    border-bottom: 2px solid black;
+}
+#champ{
+    display: flex;
+    justify-content: space-evenly;
+}
+.champ{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+    color: #000540;
+}
+.image-champ{
+    max-height: 169px;
+    max-width: 300px;
+    width: 100%;
+}
+.news{
+
+    font: 22pt "Laker", sans-serif ;
+    text-align: center;
+    color:#000540;
+    font-weight: bold;
+}
+.text-news{
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.title{
+    margin-top: 100px ;
+}

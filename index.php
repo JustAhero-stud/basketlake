@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css"  href="style/style.css" />
     <meta charset="UTF-8">
     <title>BasketLake</title>
 </head>
-<body >
+<body>
 <div class="line">
     <div id="menu">
         <a href="index.php">

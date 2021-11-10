@@ -9,7 +9,7 @@ $results = $mysqli->query("SELECT * FROM champ");
 <head>
     <meta charset="utf-8">
     <title>Champions</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css"  href="style/style.css" />
 </head>
     <div class="line">
 <?php

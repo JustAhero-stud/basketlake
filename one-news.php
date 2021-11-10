@@ -11,7 +11,7 @@ $news = $results->fetch_object();
 <head>
     <meta charset="utf-8">
     <title>News</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css"  href="style/style.css" />
 </head>
 <div class="line">
     <?php
